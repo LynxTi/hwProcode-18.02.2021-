@@ -3,17 +3,23 @@
 	padding: 0;
 }
 
+.wrraper {
+	background: linear-gradient(#c21500,#ffc500);
+}
+
 .header {
 	width: 100%;
 	height: 60px;
-	background: red;
+	background: rgba(0,0,0,0.4);
 	display: flex;
-	padding: 10px;
+	padding: 0;
+	margin-bottom: 30px;
 }
 
 .header__wrap-logo-and-menu {
 	display: flex;
 	align-items: center;
+	padding: 10px;
 }
 
 .logo{
@@ -30,4 +36,76 @@
 
 .menu__nav__link {
 	padding: 10px;
+	color: aliceblue;
+	text-decoration: none;
+}
+
+.content {
+	margin: 20px;
+	margin-bottom: 0;
+
+}
+
+.content__header {
+	color: aliceblue;
+}
+
+.content__header__title {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.blockAthor {
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+	
+}
+
+.blockAthor__iconAthor {
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black; 
+	border-radius: 50%;
+	background-image: url(https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&d=retro&r=pg);
+	background-position: center;
+}
+
+.content__header__textBlock {
+	margin-bottom: 30px;
+	line-height: 1.5;
+	max-width: 800px;
+}
+
+.artical {
+	display: flex;
+	align-items: stretch;
+	background-color: aliceblue;
+	border: 1px solid black;
+	border-radius: 2%;
+	padding: 10px;
+	flex-wrap: wrap;
+}
+
+.artical__header{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: stretch;
+}
+
+.artical__someBlockInHeader{
+	width: calc(100% / 2 - 10px);
+}
+
+.artycal__text-block {
+	display: flex;
+}
+
+.artycal__text-blocks {
+	width: calc(100% / 2 - 5px);
+}
+
+.artycal__text-block__first-block {
+	margin-right: 5px;
 }
